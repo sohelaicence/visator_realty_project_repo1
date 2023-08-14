@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar sticky-top navbar-expand-xl bg-black">
+        <div class="container-fluid wrapper w-100">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/index/logo.png" alt="" width="180" height="90"
+          /></a>
+          <button
+            class="navbar-toggler collapsed"
+            id="menuButton"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img
+              style="width: 100%; max-width: 30px"
+              src="./assets/icons8-menu-50.png"
+              alt=""
+            />
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav mr-auto w-100 justify-content-end d-lg-inline-flex color-w"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Properties </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Capital Markets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Leasing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Occupier Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Technology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sustainability</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Industries</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script>
+      // Function to handle the toggle button click
+      function handleToggleClick() {
+        const navbarCollapse = document.getElementById(
+          "navbarSupportedContent"
+        );
+        navbarCollapse.classList.toggle("show");
+      }
+
+      // Add event listener to the toggle button
+      const toggleButton = document.getElementById("menuButton");
+      toggleButton.addEventListener("click", handleToggleClick);
+
+      // Function to handle resizing of the window
+      function handleWindowResize() {
+        const navbarCollapse = document.getElementById(
+          "navbarSupportedContent"
+        );
+        const screenWidth = window.innerWidth;
+
+        if (screenWidth > 991) {
+          // Remove "show" class if screen size is larger than 991px
+          navbarCollapse.classList.remove("show");
+        }
+      }
+
+      // Add event listener to the window resize event
+      window.addEventListener("resize", handleWindowResize);
+    </script>
+
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  </body>
+</html>

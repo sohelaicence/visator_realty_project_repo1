@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+/* font-family: 'Nanum Myeongjo', serif; */
+*{
+  /* font-family: 'Nanum Myeongjo', serif; */
+}
+
+body{
+  height:fit-content;
+}
+
+.contact-section-2-row{
+  margin: 0px !important;
+}
+
+.contact-hero {
+  background-image: url("../assets/contact-hero.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 401px;
+}
+
+.fsize-18-1{
+  font-family: "Roboto", sans-serif;
+}
+
+.fsize-32{
+  font-size: 32px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
+}
+.fsize-46{
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 46px;
+}
+
+.contact-border-top{
+  border-top: 1px #ccc solid;
+}
+
+.call-us-para{
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.address-text{
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 0px 40px;
+}
+
+.form-space{
+  padding: 40px 80px;
+}
+
+.country-form-control{
+  padding: 19px;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.form-control {
+  padding: 1rem .75rem !important;
+  font-size: 16px;
+  border-radius: 0;
+  font-weight: 200;
+  border: none;
+  outline: none;
+}
+
+.textarea-none{
+  resize: none;
+}
+
+.contact-section-1 {
+  /* margin: 84px 121px; */
+  margin: 160px auto 30px auto;
+}
+
+.email-div1{
+  margin-bottom: 30px;
+}
+
+.email-id-para1{
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.email-id-para2{
+  background: #f1f1f1;
+  padding: 8px 20px;
+  color: #000;
+  border-radius: 30px;
+}
+
+
+/* xsection-2 */
+
+.contact-section-2 {
+  margin: 0;
+}
+.row{
+  --bs-gutter-x: 0rem;
+}
+.country_ddl {
+  margin-bottom: 20px;
+  padding: 6px;
+}
+
+.dropdown-toggle::after{
+  float: right;
+  /* padding: 10px; */
+  margin-top: 8px;
+}
+
+footer{
+  margin-top: 0;
+}
+
+
+
+
+/* Send A Email Section CSS Started Here */
+
+.send-email-section{
+  padding: 50px 0px;
+  font-weight: 700;
+}
+
+.send-email-content{
+  display: flex;
+  align-items: center;
+}
+
+.send-email-content1{
+  display: flex;
+  align-items: center;
+}
+
+.form-control1{
+  background: #fbf7f7;
+  outline: none;
+  width: 90%;
+  border: none;
+}
+
+.send-email-content-para{
+  padding: 17px 0px;
+  font-weight: 400;
+}
+
+.btn-subscribe{
+  padding: 16.5px;
+  background: #000000;
+  color: #fff;
+}
+
+.btn-subscribe:hover{
+  color: #fff;
+}
+
+/* Send A Email Section CSS Ended Here */
+
+
+
+
+/* Media Query Started Here */
+
+@media (max-width: 768px) {
+  .send-email-content-para{
+    margin-bottom: 30px;
+  }
+  .form-space{
+    padding: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-space{
+    padding: 40px 20px;
+  }
+}

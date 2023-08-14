@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+
+/* Font Family */
+/* font-family: 'Nanum Myeongjo', serif;
+font-family: "Roboto", sans-serif; */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Property Hero Section CSS Started Here */
+
+.property-section1{
+  margin: 86px 0px 40px 0px;
+  padding: 90px 0px;
+  /* background: #63707e; */
+  /* background: #4c5157; */
+  background: url('../assets/property-hero-img1.webp');
+  background-color: #4c5157c0;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: #fff;
+  text-align: center;
+}
+
+.property-hero-h1{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
+  font-size: 66px;
+}
+
+/* Property Hero Section CSS Ended Here */
+
+
+/* Property Section 2 CSS Started Here */
+
+.property-section2{
+  margin: 50px 0px;
+}
+
+.property-section2-para{
+  font-size: 32px;
+  color: #676767cc;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+/* Property Section 2 CSS Ended Here */
+
+
+/* Property Section 3 CSS Started Here */
+
+.property-section3{
+  margin: 50px 0px 100px 0px;
+}
+
+.property-section3-h1{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #343434;
+}
+
+.property-section3-lease-card{
+  border-top: 1px solid #c3c3c3;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 80px 0px 0px;
+}
+
+
+.property-lease-card-h3{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  margin: 3px 0px 15px 0px;
+}
+
+.property-lease-card-para{
+  text-align: justify;
+}
+
+/* Property Section 3 CSS Ended Here */
+
+
+/* Property Section 4 CSS Started Here */
+
+.property-section4{
+  margin: 50px 0px;
+}
+
+.property-section4-sale-card{
+  border-top: 1px solid #c3c3c3;
+  padding: 10px 0px 0px 0px;
+  margin: 15px 0px;
+}
+
+.property-section4-h1{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #343434;
+}
+
+.property-sale-card-h3{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  margin: 3px 0px 15px 0px;
+}
+
+.property-sale-card-para{
+  text-align: justify;
+}
+
+/* Property Section 4 CSS Ended Here */
+
+
+/* Property Section 5 CSS Started Here */
+
+.property-section5{
+  margin: 100px 0px;
+}
+
+.property-section5-img-div{
+  background: url(../assets/property-hero-img2.jpg);
+  background-color: #3434349b;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.property-section5-h1{
+  padding: 100px 0px;
+  font-size: 54px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Property Section 5 CSS Ended Here */
+

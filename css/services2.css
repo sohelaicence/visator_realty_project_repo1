@@ -1,0 +1,175 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+
+*{
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* hero section css starts here */
+
+.hero-section-services2 {
+   background-color: rgb(60, 111, 94);
+   height: 400px;
+   margin: 0px;
+}
+
+.hero-section-services2 .hero-section-heading{
+    padding-top: 200px;
+    margin-left: 40px;
+}
+
+.hero-section-services2 .hero-section-heading h2{
+    font-size: 75px;
+    font-weight: 500;
+}
+
+@media  (max-width:1190px){
+  .hero-section-services2 .hero-section-heading h2{
+    font-size: 60px;
+  }
+}
+
+/* hero section css ends here */
+
+
+/* component-content section starts here */
+
+.component-content{
+    margin: 100px 0px;
+    font-size: 1.75rem;
+    color: #424040;
+}
+
+@media (max-width:700px){
+  .component-content{
+    font-size: 1.25rem;
+  }
+}
+
+/* component-content section ends here */
+
+/* capabilities section starts here */
+
+.capabilities-section .container h3 {
+   font-size: 3.50rem;
+   font-weight: 300;
+   margin-bottom: 30px;
+}
+
+.capabilities-section .container h5{
+    font-size: 25px;
+}
+
+.capabilities-section .container h5:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.capabilities-section .container p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424040;
+}
+
+.capabilities-section .container .card-cp{
+    cursor: pointer;
+    border-top: 1px solid #ffc451;
+}
+
+
+
+ /* What-we-do section css starts here  */
+
+ .what-we-do-section{
+    margin: 100px 0px;
+ }
+
+ .what-we-do-section h3{
+    font-size: 3.50rem;
+    font-weight: 300;
+ }
+
+ .what-we-do-section .container .vert-text{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+ }
+
+ .what-we-do-card-content{
+    display: flex;
+    justify-content: space-between; 
+    border-top: 1px solid #cfd8dc;
+    padding-top: 20px;
+  }
+  
+  .what-we-do-card-div1{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .what-we-do-h4{
+    font-family: 'Merriweather', serif;
+    padding-left: 150px;
+    margin-right: 90px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  .what-we-do-card-p1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-bottom: 100px;
+  }
+  
+  .what-we-do-d-flex{
+    flex-direction: column;
+  }
+
+ .what-we-do-section .middle-div{
+    align-items: left;
+ }
+
+  .service-card-p-2{
+    position: relative;
+  }
+  
+  .service-card-anchor{
+    font-weight: 400;
+    font-size: 15px;
+    color: #9a700d;
+  
+  }
+  
+  .service-card-anchor:hover{
+    position: absolute;
+    transform:  translateX(-25%);
+    top: 1px;
+    transition: all 1s ease-out;
+    color: #9a700d;
+    cursor: pointer;
+  }
+  .streght-line{
+    padding-right: 4px;
+  }
+  
+  .service-card-anchor:hover .arrow-line{
+    opacity: 1;
+  }
+  
+  .service-card-anchor:hover .streght-line{
+    opacity: 0;
+    padding-right: 0px;
+  }
+  
+  .arrow-line{
+    position: absolute;
+    top: 23%;
+    left: 104%;
+    opacity: 0;
+  }

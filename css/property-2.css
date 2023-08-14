@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+
+/* Font Family */
+/* font-family: 'Nanum Myeongjo', serif;
+font-family: "Roboto", sans-serif; */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Property2 Section1 CSS Started Here */
+
+.property2-section1{
+  margin: 150px 0px 100px 0px;
+}
+
+.property2-section1-main-h1{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  color: #3c3c3c;
+}
+
+.property2-section1-h4{
+  color: #4d4d4dcc;
+  padding-top: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.property2-section1-row{
+  padding: 0px 30px;
+}
+
+.property2-section1-main-card{
+  margin: 30px 30px 120px 30px;
+  position: relative;
+}
+
+.property2-section1-main-card:hover{
+  cursor: pointer;
+}
+
+.property2-section1-main-card:hover .property2-card-img{
+  transform: scale(1.1);
+  transition: transform .8s;
+}
+
+.property2-section1-main-card:hover .property2-section1-card-content-h4{
+  text-decoration: underline;
+  transition: all .6s;
+}
+
+.property2-section1-card-img-div{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.property2-card-img{
+  width: 100%;
+  height: 100%;
+}
+
+.property2-section1-card-content{
+  width: 90%;
+  background: #fff;
+  padding: 10px 20px;
+  /* border-top-left-radius: 20px; */
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  top: 80%;
+  right: 6%;
+}
+
+.property2-section1-card-content-h4{
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+.property2-section1-card-content-para2{
+  margin-bottom: 20px;
+  color: #a5a5a5;
+}
+
+.property2-section1-div-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property2-section1-card-content-para3{
+  font-size: 14px;
+}
+
+.property2-section1-anchor{
+  color: #000;
+}
+
+.property2-section1-anchor:hover{
+  color: #000;
+}
+
+/* Property2 Section1 CSS Ended Here */
+
+
+
+
+/* Media Query Started Here */
+
+@media (max-width: 520px) {
+  .property2-section1-main-card {
+    margin: 30px 0px 160px 0px;
+  }
+  .property2-section1-div-flex {
+    display: block;
+  }
+  .property2-section1-card-content-para3 {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+/* font-family: 'DM Serif Display', serif; */
+
+.nanum-font-family{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 500;
+}
+
+.card-heading-nanum-font-family{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 900;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a{
+  text-decoration: none; 
+}
+
+.service-anchor-color{
+  color: #9a700d;
+}
+
+.main-h1{
+  font-size: 36px;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+
+
+/* Service Hero Section Started Here */
+
+.consulting-service-hero-section-container{
+  background: url(../assets/service-consulting-img1.webp);
+  background-color: #00000078;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  margin-top: 85px;
+  padding: 170px 50px 30px 50px;
+  color: #fff;
+}
+
+.portfolio-service-hero-section-container{
+  background: url(../assets/service-portfolio-img1.webp);
+  background-color: #00000080;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  margin-top: 85px;
+  padding: 170px 50px 30px 50px;
+  color: #fff;
+}
+
+.nri-service-hero-section-container{
+  background: url(../assets/service-nri-img1.webp);
+  background-color: #000000a0;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  margin-top: 85px;
+  padding: 170px 50px 30px 50px;
+  color: #fff;
+}
+
+.loan-service-hero-section-container{
+  background: url(../assets/service-loan-img1.webp);
+  background-color: #000000a0;
+  background-blend-mode: multiply;
+  background-position: bottom right;
+  background-size: cover;
+  height: 65vh;
+  margin-top: 85px;
+  padding: 210px 50px 30px 50px;
+  color: #fff;
+}
+
+.allied-service-hero-section-container{
+  background: url(../assets/service-allied-img2.webp);
+  background-color: #00000091;
+  background-blend-mode: multiply;
+  background-position: left center;
+  background-size: cover;
+  height: 55vh;
+  margin-top: 85px;
+  padding: 170px 50px 30px 50px;
+  color: #fff;
+}
+
+.investment-service-hero-section-container{
+  background: url(../assets/service-investment-img1.webp);
+  background-color: #0000006c;
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  height: 55vh;
+  margin-top: 85px;
+  padding: 170px 50px 30px 50px;
+  color: #fff;
+}
+
+.service-hero-para{
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-hero-h1{
+  font-family: 'Merriweather', serif;
+  font-size: 66px;
+  margin: 20px 0px;
+}
+
+.service-hero-social-media{
+  margin: 40px 0px 0px 0px;
+}
+
+.fa-facebook-f{
+  font-size: 26px;
+  font-weight: 600;
+  padding-right: 25px;
+}
+
+.fa-twitter{
+  font-size: 26px;
+  font-weight: 600;
+
+}
+
+.fa-linkedin-in{
+  font-size: 26px;
+  font-weight: 600;
+  padding-right: 25px;
+
+}
+
+.fa-envelope{
+  font-size: 26px;
+  font-weight: 600;
+  padding-right: 25px;
+
+}
+
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-linkedin-in:hover,
+.fa-envelope:hover{
+  color: #7b5704;
+  transition: color .4s, transform .6s;
+  transform: scale(1.2);
+}
+
+/* Service Hero Section Started Here */
+
+
+/* Service 2 Section CSS Started Here */
+.service-section2-h1{
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.service-2-section{
+  margin: 100px 0px;
+}
+
+.service-2-container-para{
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.6;
+  color: #5b5b5b;
+}
+
+/* Service 2 Section CSS Ended Here */
+
+
+/* Service Page Card Section CSS Started Here */
+
+.service-card-section{
+  margin: 60px 0px;
+}
+
+.service-card-content{
+  margin: 40px 0px;
+}
+
+
+.service-card-h4{
+  font-family: 'Merriweather', serif;
+  margin: 14px 0px 22px 0px;
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+.service-card-p{
+  font-weight: 500;
+  font-size: 14px;
+  text-align: justify;
+  /* text-align: center; */
+}
+
+.service-card-p-2{
+  position: relative;
+}
+
+.overlay-btn-read-more{
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.overlay-btn-read-more:hover{
+  color: #e3e3e3;
+  transition: color .6s;
+}
+
+.service-card-anchor:hover{
+  position: absolute;
+  transform:  translateX(-25%);
+  top: 0px;
+  left: 0px;
+  transition: all 1s ease-out;
+  color: #9a700d;
+  cursor: pointer;
+}
+
+.streght-line{
+  padding-right: 4px;
+}
+
+.service-card-anchor:hover .arrow-line{
+  opacity: 1;
+}
+
+.service-card-anchor:hover .streght-line{
+  opacity: 0;
+  padding-right: 0px;
+}
+
+.arrow-line{
+  position: absolute;
+  top: 23%;
+  left: 104%;
+  opacity: 0;
+}
+
+/* Service Page Card Section CSS Ended Here */
+
+
+
+
+
+
+/* Service Page Card 3 Section CSS Started Here */
+
+.service-page-card-3-section{
+  margin: 70px 0px;
+}
+
+.latest-service-container-wrapper{
+  height: 495px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  background: #000000;
+}
+
+.service-card-main-h1{
+  margin-bottom: 40px;
+}
+
+.service-page-card-3-div{
+  position: relative;
+  overflow: hidden;
+}
+
+.service-page-card-img{
+  width: 92%;
+  cursor: pointer;
+  position: relative;
+}
+
+.service-page-card-3-overlay{
+  position: absolute;
+  width: 92%;
+  height: 100%;
+  top: -100%;
+  left: 0%;
+  padding: 10px 0px 0px 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #54585a;
+  opacity: 0;
+  transition: all .6s;
+}
+
+.service-page-card-3-overlay-p{
+  color: #fff;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.service-page-card-3-div:hover .service-page-card-3-overlay{
+  opacity: 1;
+  top: 0%;
+  border-top: 10px solid #b6b6b6;
+}
+
+/* Service Page Card 3 Section CSS Ended Here */
+
+
+
+
+
+
+/* Media Query Started Here */
+
+@media (max-width: 992px) {
+  .service-explore-img{
+    width: 100%;
+    max-width: 100%;
+    height: 290px;
+  }
+  .service-section-3-content {
+    padding: 40px 30px 40px 40px
+  }
+  .what-we-do-card-content{
+    margin: 30px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .what-we-do-card-div1{
+    display: block;
+    padding: 0px 0px 0px 60px;
+  }
+  .what-we-do-h4{
+    padding: 0px 0px 12px 0px;
+  }
+  .service-2-container-para {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-hero-h1 {
+    font-size: 44px;
+  }
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-linkedin-in,
+  .fa-envelope {
+    font-size: 22px;
+  }
+  .service-hero-para {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .service-2-container-para {
+    font-size: 26px;
+  }
+  .main-h1 {
+    font-size: 38px;
+  }
+  .service-section-3-h1 {
+    font-size: 42px;
+  }
+}
+
+/* Media Query Ended Here */

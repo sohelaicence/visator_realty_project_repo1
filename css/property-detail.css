@@ -1,0 +1,477 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* Form Preload Modal Section CSS Started Here */
+
+body{
+  height: 100vh;
+  position: relative;
+}
+
+.popup-modal-content {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  width: 85%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.modal-left{
+  background: url(../assets/Group\ 259.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.modal-left-heading{
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+}
+
+.modal-left-para{
+  margin-top: 14px;
+  font-size: 18px;
+}
+
+.modal-submit-btn{
+  background: #bb8f49;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.modal-submit-btn:hover{
+  color: #fff;
+}
+
+.input-form-div{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.button-form-div{
+  margin-top: 50px;
+}
+
+.modal-container {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+
+.fa-xmark1{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+}
+
+.fa-xmark1:hover{
+  color: #f00;
+  transition: color .7s;
+}
+
+.form-input{
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 10px 10px 4px 10px;
+  font-size: 17px;
+  font-weight: 400;
+  display: block;
+  border-bottom: 1px solid #343434;
+  outline: none;
+}
+
+.form-textarea{
+  border: none;
+  padding: 10px 10px 4px 10px;
+  font-size: 17px;
+  font-weight: 400;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #343434;
+  outline: none;
+  resize: none;
+}
+
+
+.btn-submit:hover{
+  color: #bb8f49;
+  border-color: #bb8f49;
+  background: transparent;
+  transition: all .5s ease-in-out;
+}
+
+.hidden{
+  display: none;
+}
+
+/* Form Preload Modal Section CSS Ended Here */
+
+
+/* Property Detailed Section 2 CSS Started Here */
+
+.property-detail-section2{
+  margin: 115px 0px 0px 0px;
+}
+.property-detail-section2-hero2{
+  width: 80%;
+  margin: auto;
+  height: 450px;
+}
+.property-detail-section2-hero1-content2{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+}
+.bookmark-heart1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  padding-right: 7px;
+}
+.property-detail-section2-img{
+  width: 100%;
+  height: 100%;
+}
+.property-detail-sec1-hero1-div{
+  display: flex;
+  gap: 80px;
+}
+.contat-btn-for-property-detail{
+  background: #ad751c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 40px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 12px;
+}
+.contat-btn-for-property-detail:hover{
+  color: #fff;
+  background: #bb8f49;
+
+}
+
+/* Property Detailed Section 2 CSS Ended Here */
+
+
+/* Property Detailed Section 3 CSS Started Here */
+
+.property-detail-section3{
+  margin: 80px 0px 40px 0px;
+}
+.property-detail-show-more-btn{
+  color: #bb8f49;
+  font-size: 16.4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.property-detail-show-more-btn:hover{
+  color: #ad751c;
+  text-decoration: underline;
+}
+.property-detail-show-less-text{
+  display: none;
+}
+.property-detail-show-less-text-show{
+  display: inline;
+}
+
+.property-detail-section3-row{
+  padding: 30px 0px;
+}
+.building-information-div{
+  margin-top: 15px;
+}
+
+/* Property Detailed Section 3 CSS Ended Here */
+
+
+/* Property Detailed Section 4 CSS Started Here */
+
+.property-detail-section4-content{
+  width: 100%;
+  position: relative;
+}
+.property-detail-section4-img-div{
+  width: 100%;
+  margin-top: 40px;
+  height: 450px;
+}
+.floor-plan-img1{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.img-modal-container{
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+.img-hidden{
+  display: none;
+}
+
+.img-modal{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  width: 92%;
+  height: 75%;
+  padding: 3rem 5rem;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.fa-xmark2{
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  font-size: 30px;
+}
+
+.fa-xmark2:hover{
+  color: #f00;
+  transition: color .7s;
+}
+
+.img-modal-content{
+  width: 100%;
+  height: 60%;
+}
+
+.img-modal-content-img{
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+/* Property Detailed Section 4 CSS Ended Here */
+
+
+
+/* Property Detail Section 5 CSS Started Here */
+
+.property-detail-section5{
+  margin: 100px 0px;
+}
+.property-detail-section5-map{
+  width: 100%;
+}
+.mapouter{
+  width: 100%;
+}
+
+/* Property Detail Section 5 CSS Ended Here */
+
+
+
+/* Property Detailed Section 6 CSS Started Here */
+
+.property-detail-section6{
+  margin: 50px 0px 100px 0px;
+}
+
+.property-detail-section6-h1{
+  font-size: 36px;
+  color: #4f4f4f;
+}
+
+.latest-service-container-wrapper{
+  height: 400px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  background-color: #32323287;
+  border-radius: 50%;
+  padding: 9px 12px;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+.bookmark-heart{
+  position: absolute;
+  top: 25%;
+  right: 10%
+}
+
+.fa-heart1{
+  color: #f13506;
+  font-size: 30px;
+  padding: 10px 13px;
+}
+
+.fill-heart-bg{
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 10px 13px;
+}
+
+.property2-section1-row{
+  padding: 0px 30px;
+}
+
+.property2-section1-main-card{
+  margin: 30px 13px 120px 13px;
+  position: relative;
+  user-select: none;
+}
+
+.property2-section1-main-card:hover{
+  cursor: pointer;
+}
+
+.property2-section1-main-card:hover .property2-card-img{
+  transition: transform .8s;
+}
+
+.property2-section1-main-card:hover .property2-section1-card-content-h4{
+  text-decoration: underline;
+  transition: all .6s;
+}
+
+.property2-section1-card-img-div{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.property2-card-img{
+  width: 100%;
+  height: 100%;
+}
+
+.property2-section1-card-content{
+  width: 90%;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  top: 80%;
+  right: 6%;
+}
+
+.property2-section1-card-content-h4{
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+.property2-section1-card-content-para2{
+  margin-bottom: 20px;
+  color: #a5a5a5;
+}
+
+.property2-section1-div-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property2-section1-card-content-para3{
+  font-size: 14px;
+}
+
+.property-detail-section6-anchor{
+  color: #000;
+  text-decoration: none;
+}
+
+.property-detail-section6-anchor:hover{
+  color: #000;
+}
+
+/* Property Detailed Section 6 CSS Ended Here */
+
+
+
+
+/* Media Query Started Here */
+
+@media (max-width: 480px) {
+  .property-detail-section2-hero1-content2 {
+    align-items: normal;
+  }
+  .contat-btn-for-property-detail {
+    font-size: 15px;
+    padding: 12px 20px;
+    margin-bottom: 0px;
+  }
+  .property-detail-section2-row{
+    flex-direction: column-reverse;
+  }
+  .property-detail-section2-hero2 {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .property-detail-sec1-hero1-div {
+    gap: 50px;
+  }
+  .property-detail-section3 {
+    margin: 50px 0px 40px 0px;
+  }
+  .popup-modal-content {
+    padding: 1rem;
+  }
+  .fa-heart1{
+    font-size: 20px;
+    padding: 8px 10px;
+  }
+  .fill-heart-bg {
+    font-size: 20px;
+    padding: 8px 10px;
+  }
+}
+
+/* Media Query Ended Here */

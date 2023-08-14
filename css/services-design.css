@@ -1,0 +1,334 @@
+.services-design-hero-header {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+.services-design-section1 {
+  background-color: #323232;
+  height: 350px;
+
+  padding: 50px;
+}
+
+/* section2 starts */
+
+.services-design-section2 {
+  width: 87.5%;
+  margin: 84px 112px;
+}
+
+/* section3 starts */
+
+/* section3 ends */
+
+/* section4 starts */
+
+.fsize-64 {
+  margin-bottom: 40px;
+}
+.design-section4-plan {
+  width: 405px;
+}
+
+.design-section4-plan-content {
+  width: 300px;
+}
+
+.services-design-section-4 {
+  margin: 150px auto;
+  padding: 0 56px;
+  max-width: 1320px;
+}
+
+.services-design-section-42 {
+  min-width: 996px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.pb-xl-4 {
+  margin-left: 13px;
+}
+.text-rotate {
+  width: auto;
+  height: 98px;
+  transform: rotate(-90deg);
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+/* section4 ends */
+/* section-5 starts */
+.services-design-section-5, .service-design-section-6 {
+  max-width: 1600px;
+  width: 100%;
+  margin: 100px 0;
+}
+/* section-5 ends */
+
+/* section-6 starts */
+.service-design-content-section-6,
+.service-design-content-section-5 {
+  padding: 0 100px;
+}
+/* section4-6 ends */
+/* section 7 starts */
+.services-design-section-7 {
+  margin: 0 100px;
+}
+.services-design-section-71 {
+  margin: 100px auto  ;
+  max-width: 1420px;
+
+}
+.services-design-section-70,
+.services-design-section-701 {
+  background-image: url("/assets/services/services-design.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 240px;
+  min-height: 240px;
+}
+
+.services-design-section-701 {
+  background-image: url("/assets/services/service-design2.jpg");
+  height: 100%;
+}
+.services-design-section-7 {
+  margin: 0 48px;
+}
+/* section 7 ends */
+
+/* section 9 starts */
+.services-design-section-9 {
+  margin: 0 60px;
+}
+.services-design-card-img1,
+.services-design-card-img2,
+.services-design-card-img3 {
+  background-image: url("/assets/index/planning-visit.png");
+}
+
+.services-design-card-content-1,
+.services-design-card-content-2,
+.services-design-card-content-3 {
+  height: 300px;
+  padding: 30px;
+  max-width: 300px;
+  width: 300px;
+}
+
+.services-design-card-1 .services-design-card-img1,
+.services-design-card-2 .services-design-card-img2,
+.services-design-card-3 .services-design-card-img3 {
+  /* background-color: antiquewhite; */
+  transition: all 0.5s;
+  background-color: #00000000;
+}
+
+.services-design-card-1:hover .card-hover .services-design-card-content-1,
+.services-design-card-2:hover .card-hover-2 .services-design-card-content-2,
+.services-design-card-3:hover .card-hover-3 .services-design-card-content-3 {
+  background-color: antiquewhite;
+  display: block;
+  width: 300px;
+  background-image: none;
+}
+
+/* section 9 ends */
+
+/* section-10 starts */
+.service-page-card-3-section {
+  margin: 70px 0px;
+}
+
+.service-page-card-3-content {
+  margin: 40px 0px;
+  border-top: 1px solid #cfd8dc;
+  overflow: hidden;
+}
+
+.service-page-card-3-div {
+  position: relative;
+}
+
+.service-page-card-img {
+  width: 92%;
+  cursor: pointer;
+  position: relative;
+  height: 300px;
+}
+
+.service-page-card-3-overlay {
+  position: absolute;
+  width: 92%;
+  height: 100%;
+  top: 0%;
+  left: -100%;
+  padding: 10px 0px 0px 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #54585a;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+.service-page-card-3-overlay-p {
+  color: #fff;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.service-page-card-3-content:hover .service-page-card-3-overlay {
+  opacity: 1;
+  left: 0%;
+  border-left: 10px solid #b6b6b6;
+}
+/* section-10 ends */
+
+@media (min-width: 1500px){
+  .services-design-section-5, .service-design-section-6 {
+    margin: 70px auto;
+  }
+}
+
+
+@media (max-width: 1350px) {
+  .services-design-section-4 {
+    margin: 150px 0;
+  }
+  .design-section4-plan {
+    width: 303px;
+  }
+  .services-design-section-42 {
+    min-width: 700px;
+  }
+  .services-design-section-71 {
+    margin: 100px 50px;
+  }
+
+  .services-design-section-7 {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1400px) {
+  .services-section3 {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fsize-64.design-section4-plan {
+    font-size: 30px;
+    width: 381px;
+    line-height: 1.2;
+  }
+  div.fsize-150.services-design-quick-fact {
+    font-size: 80px;
+  }
+  .design-section4-plan-content {
+    width: 303px;
+  }
+
+  .value-to-Fee {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .services-design-office-image-1 {
+    width: 100%;
+    height: 400px;
+    /* max-width: 600px; */
+  }
+}
+@media (max-width: 1055px) {
+  .design-section4-plan {
+    width: 303px;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 992px) {
+  .services-design-section-42 {
+    min-width: 100%;
+  }
+
+  .services-design-section2 {
+    width: auto;
+  }
+  .services-design-section-41 {
+    margin: 24px 0 0 16px;
+  }
+  .pb-xl-4 {
+    margin-left: 0px;
+    padding-bottom: 24px;
+  }
+  .text-rotate {
+    width: auto;
+    height: auto;
+    transform: rotate(0deg);
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(0deg);
+
+    /* Firefox */
+    -moz-transform: rotate(0deg);
+
+    /* IE */
+    -ms-transform: rotate(0deg);
+
+    /* Opera */
+    -o-transform: rotate(0deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  .design-section4-plan,
+  .fsize-64.design-section4-plan,
+  .design-section4-plan-content {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .fsize-sm-30 {
+    font-size: 30px;
+  }
+  .services-design-section-71 {
+    margin: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 500px) {
+  .services-design-section-4 {
+    padding: 0 10px;
+  }
+
+  .service-design-content-section-6,
+  .service-design-content-section-5 {
+    padding: 0 20px;
+  }
+}
